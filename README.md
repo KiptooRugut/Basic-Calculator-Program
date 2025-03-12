@@ -22,4 +22,4 @@ Example Usage
 ✓ Enter first number: 20
 ✓ Enter second number: 7
 ✓ Enter operation (+, -, *, /): +
-  20 + 7 = 27
+✓ i.e. (20 + 7 = 27)
