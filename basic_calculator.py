@@ -18,10 +18,13 @@ elif op == '/':
     if num2 == 0:
         raise ZeroDivisionError("Division by zero is not allowed.")
     result = num1 / num2
-
+else:
+    print("Invalid operator entered.")
+    exit()
 
 # Step 4: Format the result for display
 display_result = int(result) if result.is_integer() else result
+
 
 # Step 5: Display the result (print the formatted output)
 print(f"{display_num1} {op} {display_num2} = {display_result}")
