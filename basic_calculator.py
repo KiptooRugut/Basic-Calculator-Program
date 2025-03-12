@@ -20,3 +20,5 @@ elif op == '/':
     result = num1 / num2
 
 
+# Step 4: Format the result for display
+display_result = int(result) if result.is_integer() else result
